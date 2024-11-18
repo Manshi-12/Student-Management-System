@@ -39,9 +39,10 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/StudentManagementSystem.git
+   git clone https://github.com/Manshi-12/Student-Management-System
 2. Import the project into Visual Studio Code or your preferred IDE.
 3. Use XAMPP to start MySQL and create the required database and table:
+   
     CREATE DATABASE individual_project;
     USE individual_project;
     CREATE TABLE studentinfo (
@@ -53,7 +54,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
       scourse VARCHAR(50),
       spercent INT
   );
-4. Update the dburl, dbuser, and dbpass variables in the code to match your XAMPP MySQL configuration.
+5. Update the dburl, dbuser, and dbpass variables in the code to match your XAMPP MySQL configuration.
 
 ## Usage
 1. Run the program in Visual Studio Code.
